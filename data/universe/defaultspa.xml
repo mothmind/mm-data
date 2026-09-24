@@ -2977,6 +2977,27 @@ While acting as your negotiator in the contract market, you may sacrifice one fe
         <invalidAbilities>shrewd_trader</invalidAbilities>
     </ability>
     <ability>
+        <lookupName>redline_rider</lookupName>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>2</weight>
+        <skillPrereq>
+            <skill>Piloting/Mek::Regular</skill>
+            <skill>Piloting/ProtoMek::Regular</skill>
+            <skill>Piloting/Vehicle::Regular</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>drop_kick_guru</lookupName>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>2</weight>
+        <skillPrereq>
+            <skill>Piloting/Mek::Regular</skill>
+            <skill>Piloting/ProtoMek::Regular</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
         <lookupName>trigger_discipline</lookupName>
         <xpCost>100</xpCost>
         <originOnly>false</originOnly>
