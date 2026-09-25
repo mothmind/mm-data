@@ -3012,6 +3012,15 @@ While acting as your negotiator in the contract market, you may sacrifice one fe
             <skill>Gunnery/Vehicle::Regular</skill>
         </skillPrereq>
     </ability>
+    <ability>
+        <lookupName>showboat</lookupName>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>2</weight>
+        <skillPrereq>
+            <skill>Gunnery/Mek::Regular</skill>
+        </skillPrereq>
+    </ability>
 
     <!-- Example entries corresponding to the examples in customspa.xml
      See docs/custom_spa.md
